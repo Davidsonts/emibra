@@ -113,6 +113,9 @@ class ViewController: UIViewController, ARSCNViewDelegate {
             let imageName = referenceImage.name ?? ""
             self.statusViewController.cancelAllScheduledMessages()
             self.statusViewController.showMessage("Detected image “\(imageName)”")
+            
+            UIApplication.shared.open(URL(string: "https://www.emibra.com.br")!)
+
         }
     }
 

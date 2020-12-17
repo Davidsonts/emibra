@@ -33,7 +33,7 @@ class ViewController: UIViewController, ARSCNViewDelegate {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+ 
         sceneView.delegate = self
         sceneView.session.delegate = self
 
@@ -43,9 +43,30 @@ class ViewController: UIViewController, ARSCNViewDelegate {
         }
     }
 
+    /// CHECK INTERNET
+    func Alert (Message: String){
+        
+        let alert = UIAlertController(title: "Alert", message: Message, preferredStyle: UIAlertController.Style.alert)
+        alert.addAction(UIAlertAction(title: "ok", style: UIAlertAction.Style.default, handler: nil))
+        self.present(alert, animated: true, completion: nil)
+        
+    }
+    /// CHECK INTERNET
+    
 	override func viewDidAppear(_ animated: Bool) {
 		super.viewDidAppear(animated)
 		
+        if CheckInternet.Connection(){
+            
+            // self.Alert(Message: "Connected")
+            
+        }
+        
+        else{
+            
+            self.Alert(Message: "Your Device is not connected with internet")
+        }
+        
 		// Prevent the screen from being dimmed to avoid interuppting the AR experience.
 		UIApplication.shared.isIdleTimerDisabled = true
 
@@ -114,9 +135,19 @@ class ViewController: UIViewController, ARSCNViewDelegate {
             self.statusViewController.cancelAllScheduledMessages()
             self.statusViewController.showMessage("Detected image “\(imageName)”")
             
-            UIApplication.shared.open(URL(string: "https://www.emibra.com.br")!)
-
+            // UIApplication.shared.open(URL(string: "https://www.emibra.com.br")!)
+ 
+//            let secondViewController:HomeViewController = HomeViewController()
+//
+//            self.present(secondViewController, animated: true, completion: nil)
+            
+            let storyBoard: UIStoryboard = UIStoryboard(name: "Main", bundle: nil)
+            let homeViewController = storyBoard.instantiateViewController(withIdentifier: "home") as! HomeViewController
+            self.present(homeViewController, animated: true, completion: nil)
+            self.resetTracking()
+            
         }
+        
     }
 
     var imageHighlightAction: SCNAction {

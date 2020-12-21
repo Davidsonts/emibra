@@ -11,6 +11,12 @@ import UIKit
 
 class ViewController: UIViewController, ARSCNViewDelegate {
     
+    @IBAction func btnSaibaMais(_ sender: Any) {
+        if let url = URL(string: "https://www.emibra.com.br/news/novo-app-emibra") {
+            UIApplication.shared.open(url)
+        }
+    }
+    
     @IBOutlet var sceneView: ARSCNView!
     
     @IBOutlet weak var blurView: UIVisualEffectView!
@@ -51,11 +57,20 @@ class ViewController: UIViewController, ARSCNViewDelegate {
         self.present(alert, animated: true, completion: nil)
         
     }
+    
     /// CHECK INTERNET
     
 	override func viewDidAppear(_ animated: Bool) {
 		super.viewDidAppear(animated)
 		
+//        if (ARConfiguration.isSupported) {
+//
+//              // Great! let have experience of ARKIT
+//        } else {
+//             // Sorry! you don't have ARKIT support in your device
+//
+//        }
+        
         if CheckInternet.Connection(){
             
             // self.Alert(Message: "Connected")
@@ -64,7 +79,7 @@ class ViewController: UIViewController, ARSCNViewDelegate {
         
         else{
             
-            self.Alert(Message: "Your Device is not connected with internet")
+            self.Alert(Message: "Seu dispositivo não está conectado à internet")
         }
         
 		// Prevent the screen from being dimmed to avoid interuppting the AR experience.

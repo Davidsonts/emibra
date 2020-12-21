@@ -1,0 +1,12 @@
+
+/* Class = "UIButton"; normalTitle = "P&D"; ObjectID = "MN8-Re-jja"; */
+"MN8-Re-jja.normalTitle" = "P&D";
+
+/* Class = "UIButton"; normalTitle = "PLANEJAMENTO"; ObjectID = "fZ1-Hu-dBt"; */
+"fZ1-Hu-dBt.normalTitle" = "PLANEJAMENTO";
+
+/* Class = "UIButton"; normalTitle = "COMPRAR"; ObjectID = "tkF-Xw-Jvt"; */
+"tkF-Xw-Jvt.normalTitle" = "COMPRAR";
+
+/* Class = "UILabel"; text = "Tracking status"; ObjectID = "x6b-bh-aZK"; */
+"x6b-bh-aZK.text" = "Tracking status";

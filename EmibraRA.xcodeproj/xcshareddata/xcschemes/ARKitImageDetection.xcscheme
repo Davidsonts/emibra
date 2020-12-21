@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "3929C4871E89EC2C00E00B60"
-               BuildableName = "ARKitImageDetection.app"
-               BlueprintName = "ARKitImageDetection"
-               ReferencedContainer = "container:ARKitImageDetection.xcodeproj">
+               BuildableName = "EmibraRA.app"
+               BlueprintName = "EmibraRA"
+               ReferencedContainer = "container:EmibraRA.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -27,17 +27,17 @@
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
-      <Testables>
-      </Testables>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "3929C4871E89EC2C00E00B60"
-            BuildableName = "ARKitImageDetection.app"
-            BlueprintName = "ARKitImageDetection"
-            ReferencedContainer = "container:ARKitImageDetection.xcodeproj">
+            BuildableName = "EmibraRA.app"
+            BlueprintName = "EmibraRA"
+            ReferencedContainer = "container:EmibraRA.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
+      <Testables>
+      </Testables>
    </TestAction>
    <LaunchAction
       buildConfiguration = "Debug"
@@ -54,9 +54,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "3929C4871E89EC2C00E00B60"
-            BuildableName = "ARKitImageDetection.app"
-            BlueprintName = "ARKitImageDetection"
-            ReferencedContainer = "container:ARKitImageDetection.xcodeproj">
+            BuildableName = "EmibraRA.app"
+            BlueprintName = "EmibraRA"
+            ReferencedContainer = "container:EmibraRA.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </LaunchAction>
@@ -71,9 +71,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "3929C4871E89EC2C00E00B60"
-            BuildableName = "ARKitImageDetection.app"
-            BlueprintName = "ARKitImageDetection"
-            ReferencedContainer = "container:ARKitImageDetection.xcodeproj">
+            BuildableName = "EmibraRA.app"
+            BlueprintName = "EmibraRA"
+            ReferencedContainer = "container:EmibraRA.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
@@ -82,6 +82,7 @@
    </AnalyzeAction>
    <ArchiveAction
       buildConfiguration = "Release"
+      customArchiveName = "EmibraRA"
       revealArchiveInOrganizer = "YES">
    </ArchiveAction>
 </Scheme>

@@ -17,6 +17,7 @@
 		63345B1225C05A7B00D54EB9 /* ListarAnotacoesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63345B1125C05A7B00D54EB9 /* ListarAnotacoesTableViewController.swift */; };
 		63345B1525C05CEA00D54EB9 /* AnotacaoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63345B1425C05CEA00D54EB9 /* AnotacaoViewController.swift */; };
 		63345B5C25C0699D00D54EB9 /* EmibraRA.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 63345B5A25C0699D00D54EB9 /* EmibraRA.xcdatamodeld */; };
+		63345B6025C0A1FE00D54EB9 /* data.json in Resources */ = {isa = PBXBuildFile; fileRef = 63345B5F25C0A1FE00D54EB9 /* data.json */; };
 		6351F25025B601270093B274 /* RepresentantesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6351F24F25B601270093B274 /* RepresentantesViewController.swift */; };
 		6351F25425B61F580093B274 /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6351F25325B61F570093B274 /* ChatViewController.swift */; };
 		C41366B91EB80DD400EC054A /* StatusViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C41366B81EB80DD400EC054A /* StatusViewController.swift */; };
@@ -39,6 +40,7 @@
 		63345B1125C05A7B00D54EB9 /* ListarAnotacoesTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListarAnotacoesTableViewController.swift; sourceTree = "<group>"; };
 		63345B1425C05CEA00D54EB9 /* AnotacaoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnotacaoViewController.swift; sourceTree = "<group>"; };
 		63345B5B25C0699D00D54EB9 /* EmibraRA.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = EmibraRA.xcdatamodel; sourceTree = "<group>"; };
+		63345B5F25C0A1FE00D54EB9 /* data.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = data.json; sourceTree = "<group>"; };
 		6351F24F25B601270093B274 /* RepresentantesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepresentantesViewController.swift; sourceTree = "<group>"; };
 		6351F25325B61F570093B274 /* ChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
 		B8AE7549A2472F11C9D46447 /* SampleCode.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = SampleCode.xcconfig; path = Configuration/SampleCode.xcconfig; sourceTree = "<group>"; };
@@ -107,11 +109,12 @@
 				6324C138258C01B8004DF9AC /* CheckInternet.swift */,
 				6351F24F25B601270093B274 /* RepresentantesViewController.swift */,
 				6324C12B258BC300004DF9AC /* HomeViewController.swift */,
-				1488324B1EFC3EBF0043E0AB /* Additional View Controllers */,
-				1488324C1EFC3ED00043E0AB /* Resources */,
 				63345B1125C05A7B00D54EB9 /* ListarAnotacoesTableViewController.swift */,
 				63345B1425C05CEA00D54EB9 /* AnotacaoViewController.swift */,
+				1488324B1EFC3EBF0043E0AB /* Additional View Controllers */,
+				1488324C1EFC3ED00043E0AB /* Resources */,
 				63345B5A25C0699D00D54EB9 /* EmibraRA.xcdatamodeld */,
+				63345B5F25C0A1FE00D54EB9 /* data.json */,
 			);
 			path = EmibraRA;
 			sourceTree = "<group>";
@@ -205,6 +208,7 @@
 				39D8DC1B1E8ADAE600386B05 /* LaunchScreen.storyboard in Resources */,
 				3929C4931E89EC2C00E00B60 /* Assets.xcassets in Resources */,
 				3929C4911E89EC2C00E00B60 /* Main.storyboard in Resources */,
+				63345B6025C0A1FE00D54EB9 /* data.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -43,10 +43,11 @@ class ViewController: UIViewController, ARSCNViewDelegate {
 //        }
 //    }
     
+    
     @IBAction func btnSaibaMais(_ sender: Any) {
         if let url = URL(string: "https://www.emibra.com.br/news/novo-app-emibra") {
-            UIApplication.shared.open(url)
-        }
+                   UIApplication.shared.open(url)
+               }
     }
     
     @IBOutlet var sceneView: ARSCNView!

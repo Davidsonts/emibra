@@ -12,6 +12,7 @@ import AVKit
 class HomeViewController: UIViewController {
 //    @IBOutlet weak var myWebView: UIWebView!
     // @IBOutlet weak var videoWebView: UIWebView!
+    
     @IBAction func btnPlay(_ sender: Any) {
         getVideo(videoCode: video4)
     }

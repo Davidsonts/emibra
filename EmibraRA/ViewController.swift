@@ -10,6 +10,38 @@ import SceneKit
 import UIKit
 
 class ViewController: UIViewController, ARSCNViewDelegate {
+    @IBAction func btnListaTarefas(_ sender: Any) {
+//        let storyBoard: UIStoryboard = UIStoryboard(name: "Main", bundle: nil)
+//        let vc = storyBoard.instantiateViewController(withIdentifier: "tarefas") as! TarefasViewController
+//        self.present(vc, animated: true, completion: nil)
+    }
+    
+    @IBAction func btnRepresentantes(_ sender: Any) {
+        let storyBoard: UIStoryboard = UIStoryboard(name: "Main", bundle: nil)
+        let vc = storyBoard.instantiateViewController(withIdentifier: "representantes") as! RepresentantesViewController
+        self.present(vc, animated: true, completion: nil)
+    }
+    
+    @IBAction func btnChat(_ sender: Any) {
+//        if let url = URL(string: "https://www.hackingwithswift.com") {
+//            UIApplication.shared.open(url)
+//        }
+        let storyBoard: UIStoryboard = UIStoryboard(name: "Main", bundle: nil)
+        let vc = storyBoard.instantiateViewController(withIdentifier: "chat") as! ChatViewController
+        self.present(vc, animated: true, completion: nil)
+    }
+    //    @IBAction func btnRepresentantes(_ sender: Any) {
+//        let storyBoard: UIStoryboard = UIStoryboard(name: "Main", bundle: nil)
+//        let vc = storyBoard.instantiateViewController(withIdentifier: "representantes") as! RepresentantesViewController
+//        self.present(vc, animated: true, completion: nil)
+//
+//    }
+//
+//    @IBAction func btnChat(_ sender: Any) {
+//        if let url = URL(string: "https://www.hackingwithswift.com") {
+//            UIApplication.shared.open(url)
+//        }
+//    }
     
     @IBAction func btnSaibaMais(_ sender: Any) {
         if let url = URL(string: "https://www.emibra.com.br/news/novo-app-emibra") {
